@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "958113308040",
+    "project_id": "prakflutterfirebase-33f6a",
+    "storage_bucket": "prakflutterfirebase-33f6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958113308040:android:1faa1ec759f453361e6e3d",
+        "android_client_info": {
+          "package_name": "com.example.firebase_auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrfpntzKirHNwRRCM5UyTCAG3VNvhkzls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
