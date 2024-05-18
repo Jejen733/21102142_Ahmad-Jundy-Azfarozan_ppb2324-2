@@ -1,0 +1,1 @@
+ D:\\Kuliah\\SEM\ 6\\21102142_TI2_ppb2324-2\\Savv_app\\flutter_application_1\\.dart_tool\\flutter_build\\50e89a9146daaadd452f28fd482c519c\\native_assets.yaml: 
