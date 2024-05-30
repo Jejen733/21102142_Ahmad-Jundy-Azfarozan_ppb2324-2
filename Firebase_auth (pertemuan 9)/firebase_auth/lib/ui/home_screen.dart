@@ -87,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                               GestureDetector(
                                 onTap: () {},
-                                child: Icon(Icons.more_vert_outlined),
+                                child: const Icon(Icons.more_vert_outlined),
                               ),
                             ],
                           ),
@@ -111,6 +111,7 @@ class _HomeScreenState extends State<HomeScreen> {
         },
       ),
       floatingActionButton: FloatingActionButton(
+        child: const Icon(Icons.add),
         onPressed: () {
           showModalBottomSheet(
             context: context,
@@ -163,8 +164,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             onPressed: () async {
                               if (_formKey.currentState!.validate()) {
                                 try {
-                                  DocumentReference docRef =
-                                      await _firestore.collection('tasks').add({
+                                  await _firestore.collection('tasks').add({
                                     'title': titleController.text,
                                     'note': noteController.text,
                                     'timestamp': FieldValue.serverTimestamp(),
